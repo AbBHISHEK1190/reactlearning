@@ -4,12 +4,16 @@ import "./App.css";
 import { Users, Abhi } from "./User";
 import Formcom from "./Formcom";
 import { Componentdiidmount } from "./Componentdiidmount.js";
+import { ComponenetDidupdatesss } from "./ComponenetDidupdatesss.js";
 
 function App() {
   return (
     <div className="App">
       <h1>abhi</h1>
       <Componentdiidmount />
+      <p>mount update</p>
+      <ComponenetDidupdatesss />
+
       {/* <Formcom></Formcom> */}
       <Formcom />
 
