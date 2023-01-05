@@ -3,11 +3,13 @@ import "./App.css";
 // import { Users, Abhi } from "./User";
 import { Users, Abhi } from "./User";
 import Formcom from "./Formcom";
+import { Componentdiidmount } from "./Componentdiidmount.js";
 
 function App() {
   return (
     <div className="App">
       <h1>abhi</h1>
+      <Componentdiidmount />
       {/* <Formcom></Formcom> */}
       <Formcom />
 
