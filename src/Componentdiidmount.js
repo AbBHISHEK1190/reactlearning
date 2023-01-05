@@ -10,6 +10,8 @@ export class Componentdiidmount extends React.Component {
   }
   render() {
     // console.warn("render");
+    // it will call autpomattically when state call here
+    // this.setState({ name: "pintu" });
     return (
       <div>
         <h1 style={{ color: "red" }}>Component Did Mount {this.state.name}</h1>
