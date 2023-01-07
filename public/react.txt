@@ -1,0 +1,45 @@
+state :object hota hai we can store varibles(re rendering means component pura run l)
+
+import React, { useState } from "react";
+const [data, setData] = useState("anil");
+
+
+Props:like parameter in functions pass data in componts(jaha pe props recive hoga waha change nahi ho sakta hai)
+
+React lifecycle:mounting,updating,unmounting
+
+reacat life cycle:(constructor,render,componentDidMount)
+componentDidMount:use for call api
+
+constructor will run first then render and then componentdidmount(html and css sab ready ho zayega tab ye call hoga)
+
+
+componentDidUpdate:componentDidUpdate(preProps, preState, snapShot) 
+
+always runs after update and gives previus value
+
+shouldcomponentUpdate:it stops from rendering and when we puts return true then renders will happen
+
+componentwillmount:calls after component removes
+
+we can only use map function in component
+
+Fragment using for resolve div problems
+
+Lifting state up:child se parent main data transfer karna
+
+Pure component:is using to prevent from rendering if search same data and useMemo hook will use
+
+Ref:using for manipulate dom useRef is hooks
+
+Controlled componenet:always handle by react States
+Uncontrolled component:always handled by dom
+
+High order component: will take component as input and give component return
+
+Roures:
+<BrowserRouter>
+<Routes>
+<Route path="about" element={<Home />}/>
+</Routes>
+</BrowserRouter>
